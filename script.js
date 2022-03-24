@@ -279,10 +279,10 @@ function getFinalGrades (t1, t2, t3) {
   console.log("Subject 2 Final Grade: " + finalGrade2);
   console.log("Subject 2 Final Grade: " + finalGrade3);
   
-  let finalGrade1 = parseInt(finalGrade1);
-  let finalGrade2 = parseInt(finalGrade2);
-  let finalGrade3 = parseInt(finalGrade3);
-  getAverageGrades(finalGrade1,finalGrade2,finalGrade3);
+  let FinalGrade1 = parseInt(finalGrade1);
+  let FinalGrade2 = parseInt(finalGrade2);
+  let FinalGrade3 = parseInt(finalGrade3);
+  getAverageGrades(FinalGrade1,FinalGrade2,FinalGrade3);
 }
 
 function getAverageGrades(f1,f2,f3) {
