@@ -286,8 +286,8 @@ function getFinalGrades (t1, t2, t3) {
 }
 
 function getAverageGrades(f1,f2,f3) {
-  let averageGrades = (f1 + f2 + f3) / 3;
-
+  let GWA = (f1 + f2 + f3) / 3;
+  
      switch (true) {
     case (GWA >= 1.000) && (GWA <= 1.125):
       GWA = "1.00";
