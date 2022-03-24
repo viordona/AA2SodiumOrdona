@@ -327,6 +327,6 @@ function getAverageGrades(f1,f2,f3) {
    }
   
   document.write("Your GWA is " + GWA + ".");
-  console.log ("\n GWA:" + GWA);
+  console.log ("\nGWA:" + GWA);
 } 
 
