@@ -35,111 +35,111 @@ function getTenta(total1, total2, total3){
   let tentativeGrade1, tentativeGrade2, tentativeGrade3 = "Could not be calculated";
   switch (true) {
     case (total1 >= 96):
-      tentativeGrade1 = 1.00;
+      tentativeGrade1 = "1.00";
       break;
     case (total1 >= 90) && (total1 <= 95.99):
-      tentativeGrade1 = 1.25;
+      tentativeGrade1 = "1.25";
       break;
     case (total1 >= 84) && (total1 <= 89.99):
-      tentativeGrade1 = 1.50;
+      tentativeGrade1 = "1.50";
       break;
     case (total1 >= 78) && (total1 <= 83.99):
-      tentativeGrade1 = 1.75;
+      tentativeGrade1 = "1.75";
       break;
     case (total1 >= 72) && (total1 <= 77.99):
-      tentativeGrade1 = 2.00;
+      tentativeGrade1 = "2.00";
       break;
     case (total1 >= 66) && (total1 <= 71.99):
-      tentativeGrade1 = 2.25;
+      tentativeGrade1 = "2.25";
       break;
     case (total1 >= 60) && (total1 <= 65.99):
-      tentativeGrade1 = 2.50;
+      tentativeGrade1 = "2.50";
       break;
     case (total1 >= 55) && (total1 <= 59.99):
-      tentativeGrade1 = 2.75;
+      tentativeGrade1 = "2.75";
       break;
     case (total1 >= 50) && (total1 <= 54.99):
-      tentativeGrade1 = 3.00;
+      tentativeGrade1 = "3.00";
       break;
     case (total1 >= 40) && (total1 <= 49.99):
-      tentativeGrade1 = 4.00;
+      tentativeGrade1 = "4.00";
       break;
     case (total1 < 40):
-      tentativeGrade1 = 5.00;
+      tentativeGrade1 = "5.00";
       break;
     default:
       document.write("There was an error in calculating your grade. Please make sure the entered values are correct, and try again.");
    }
   switch (true) {
     case (total2 >= 96):
-      tentativeGrade2 = 1.00;
+      tentativeGrade2 = "1.00";
       break;
     case (total2 >= 90) && (total2 <= 95.99):
-      tentativeGrade2 = 1.25;
+      tentativeGrade2 = "1.25";
       break;
     case (total2 >= 84) && (total2 <= 89.99):
-      tentativeGrade2 = 1.50;
+      tentativeGrade2 = "1.50";
       break;
     case (total2 >= 78) && (total2 <= 83.99):
-      tentativeGrade2 = 1.75;
+      tentativeGrade2 = "1.75";
       break;
     case (total2 >= 72) && (total2 <= 77.99):
-      tentativeGrade2 = 2.00;
+      tentativeGrade2 = "2.00";
       break;
     case (total2 >= 66) && (total2 <= 71.99):
-      tentativeGrade2 = 2.25;
+      tentativeGrade2 = "2.25";
       break;
     case (total2 >= 60) && (total2 <= 65.99):
-      tentativeGrade2 = 2.50;
+      tentativeGrade2 = "2.50";
       break;
     case (total2 >= 55) && (total2 <= 59.99):
-      tentativeGrade2 = 2.75;
+      tentativeGrade2 = "2.75";
       break;
     case (total2 >= 50) && (total2 <= 54.99):
-      tentativeGrade2 = 3.00;
+      tentativeGrade2 = "3.00";
       break;
     case (total2 >= 40) && (total2 <= 49.99):
-      tentativeGrade2 = 4.00;
+      tentativeGrade2 = "4.00";
       break;
     case (total2 < 40):
-      tentativeGrade2 = 5.00;
+      tentativeGrade2 = "5.00";
       break;
     default:
       document.write("There was an error in calculating your grade. Please make sure the entered values are correct, and try again.");
    }
   switch (true) {
     case (total3 >= 96):
-      tentativeGrade3 = 1.00;
+      tentativeGrade3 = "1.00";
       break;
     case (total3 >= 90) && (total3 <= 95.99):
-      tentativeGrade3 = 1.25;
+      tentativeGrade3 = "1.25";
       break;
     case (total3 >= 84) && (total3 <= 89.99):
-      tentativeGrade3 = 1.50;
+      tentativeGrade3 = "1.50";
       break;
     case (total3 >= 78) && (total3 <= 83.99):
-      tentativeGrade3 = 1.75;
+      tentativeGrade3 = "1.75";
       break;
     case (total3 >= 72) && (total3 <= 77.99):
-      tentativeGrade3 = 2.00;
+      tentativeGrade3 = "2.00";
       break;
     case (total3 >= 66) && (total3 <= 71.99):
-      tentativeGrade3 = 2.25;
+      tentativeGrade3 = "2.25";
       break;
     case (total3 >= 60) && (total3 <= 65.99):
-      tentativeGrade3 = 2.50;
+      tentativeGrade3 = "2.50";
       break;
     case (total3 >= 55) && (total3 <= 59.99):
-      tentativeGrade3 = 2.75;
+      tentativeGrade3 = "2.75";
       break;
     case (total3 >= 50) && (total3 <= 54.99):
-      tentativeGrade3 = 3.00;
+      tentativeGrade3 = "3.00";
       break;
     case (total3 >= 40) && (total3 <= 49.99):
-      tentativeGrade3 = 4.00;
+      tentativeGrade3 = "4.00";
       break;
     case (total3 < 40):
-      tentativeGrade3 = 5.00;
+      tentativeGrade3 = "5.00";
       break;
     default:
       document.write("There was an error in calculating your grade. Please make sure the entered values are correct, and try again.");
@@ -163,37 +163,37 @@ function getFinalGrades (t1, t2, t3) {
 
   switch (true) {
     case (finalGrade1 >= 1.000) && (finalGrade1 <= 1.125):
-      finalGrade1 = 1.00;
+      finalGrade1 = "1.00";
       break;
     case (finalGrade1 >= 1.126) && (finalGrade1 <= 1.375):
-      finalGrade1 = 1.25;
+      finalGrade1 = "1.25";
       break;
     case (finalGrade1 >= 1.376) && (finalGrade1 <= 1.625):
-      finalGrade1 = 1.50;
+      finalGrade1 = "1.50";
       break;
     case (finalGrade1 >= 1.626) && (finalGrade1 <= 1.875):
-      finalGrade1 = 1.75;
+      finalGrade1 = "1.75";
       break;
     case (finalGrade1 >= 1.876) && (finalGrade1 <= 2.125):
-      finalGrade1 = 2.00;
+      finalGrade1 = "2.00";
       break;
     case (finalGrade1 >= 2.126) && (finalGrade1 <= 2.375):
-      finalGrade1 = 2.25;
+      finalGrade1 = "2.25";
       break;
     case (finalGrade1 >= 2.376) && (finalGrade1 <= 2.625):
-      finalGrade1 = 2.50;
+      finalGrade1 = "2.50";
       break;
     case (finalGrade1 >= 2.626) && (finalGrade1 <= 2.875):
-      finalGrade1 = 2.75;
+      finalGrade1 = "2.75";
       break;
     case (finalGrade1 >= 2.876) && (finalGrade1 <= 3.125):
-      finalGrade1 = 3.00;
+      finalGrade1 = "3.00";
       break;
     case (finalGrade1 >= 3.126) && (finalGrade1 <= 3.375):
-      finalGrade1 = 4.00;
+      finalGrade1 = "4.00";
       break;
     case (finalGrade1 < 3.126 ):
-      finalGrade1 = 5.00;
+      finalGrade1 = "5.00";
       break;
     default:
       document.write("There was an error in calculating your grade. Please make sure the entered values are correct, and try again.");
@@ -201,37 +201,37 @@ function getFinalGrades (t1, t2, t3) {
 
    switch (true) {
     case (finalGrade2 >= 1.000) && (finalGrade2 <= 1.125):
-      finalGrade2 = 1.00;
+      finalGrade2 = "1.00";
       break;
     case (finalGrade2 >= 1.126) && (finalGrade2 <= 1.375):
-      finalGrade2 = 1.25;
+      finalGrade2 = "1.25";
       break;
     case (finalGrade2 >= 1.376) && (finalGrade2 <= 1.625):
-      finalGrade2 = 1.50;
+      finalGrade2 = "1.50";
       break;
     case (finalGrade2 >= 1.626) && (finalGrade2 <= 1.875):
-      finalGrade2 = 1.75;
+      finalGrade2 = "1.75";
       break;
     case (finalGrade2 >= 1.876) && (finalGrade2 <= 2.125):
-      finalGrade2 = 2.00;
+      finalGrade2 = "2.00";
       break;
     case (finalGrade2 >= 2.126) && (finalGrade2 <= 2.375):
-      finalGrade2 = 2.25;
+      finalGrade2 = "2.25";
       break;
     case (finalGrade2 >= 2.376) && (finalGrade2 <= 2.625):
-      finalGrade2 = 2.50;
+      finalGrade2 = "2.50";
       break;
     case (finalGrade2 >= 2.626) && (finalGrade2 <= 2.875):
-      finalGrade2 = 2.75;
+      finalGrade2 = "2.75";
       break;
     case (finalGrade2 >= 2.876) && (finalGrade2 <= 3.125):
-      finalGrade2 = 3.00;
+      finalGrade2 = "3.00";
       break;
     case (finalGrade2 >= 3.126) && (finalGrade2 <= 3.375):
-      finalGrade2 = 4.00;
+      finalGrade2 = "4.00";
       break;
     case (finalGrade2 < 3.126 ):
-      finalGrade2 = 5.00;
+      finalGrade2 = "5.00";
       break;
     default:
       document.write("There was an error in calculating your grade. Please make sure the entered values are correct, and try again.");
@@ -239,37 +239,37 @@ function getFinalGrades (t1, t2, t3) {
 
      switch (true) {
     case (finalGrade3 >= 1.000) && (finalGrade3 <= 1.125):
-      finalGrade3 = 1.00;
+      finalGrade3 = "1.00";
       break;
     case (finalGrade3 >= 1.126) && (finalGrade3 <= 1.375):
-      finalGrade3 = 1.25;
+      finalGrade3 = "1.25";
       break;
     case (finalGrade3 >= 1.376) && (finalGrade3 <= 1.625):
-      finalGrade3 = 1.50;
+      finalGrade3 = "1.50";
       break;
     case (finalGrade3 >= 1.626) && (finalGrade3 <= 1.875):
-      finalGrade3 = 1.75;
+      finalGrade3 = "1.75";
       break;
     case (finalGrade3 >= 1.876) && (finalGrade3 <= 2.125):
-      finalGrade3 = 2.00;
+      finalGrade3 = "2.00";
       break;
     case (finalGrade3 >= 2.126) && (finalGrade3 <= 2.375):
-      finalGrade3 = 2.25;
+      finalGrade3 = "2.25";
       break;
     case (finalGrade3 >= 2.376) && (finalGrade3 <= 2.625):
-      finalGrade3 = 2.50;
+      finalGrade3 = "2.50";
       break;
     case (finalGrade3 >= 2.626) && (finalGrade3 <= 2.875):
-      finalGrade3 = 2.75;
+      finalGrade3 = "2.75";
       break;
     case (finalGrade3 >= 2.876) && (finalGrade3 <= 3.125):
-      finalGrade3 = 3.00;
+      finalGrade3 = "3.00";
       break;
     case (finalGrade3 >= 3.126) && (finalGrade3 <= 3.375):
-      finalGrade3 = 4.00;
+      finalGrade3 = "4.00";
       break;
     case (finalGrade3 < 3.126 ):
-      finalGrade3 = 5.00;
+      finalGrade3 = "5.00";
       break;
     default:
       document.write("There was an error in calculating your grade. Please make sure the entered values are correct, and try again.");
@@ -278,54 +278,55 @@ function getFinalGrades (t1, t2, t3) {
   console.log("\nSubject 1 Final Grade: " + finalGrade1);
   console.log("Subject 2 Final Grade: " + finalGrade2);
   console.log("Subject 2 Final Grade: " + finalGrade3);
-
+  
+  let finalGrade1 = parseInt(finalGrade1);
+  let finalGrade1 = parseInt(finalGrade2);
+  let finalGrade1 = parseInt(finalGrade3);
   getAverageGrades(finalGrade1,finalGrade2,finalGrade3);
 }
 
 function getAverageGrades(f1,f2,f3) {
-  let GWA = (f1 + f2 + f3) / 3;
+  let averageGrades = (f1 + f2 + f3) / 3;
 
      switch (true) {
     case (GWA >= 1.000) && (GWA <= 1.125):
-      GWA = 1.00;
+      GWA = "1.00";
       break;
     case (GWA >= 1.126) && (GWA <= 1.375):
-      GWA = 1.25;
+      GWA = "1.25";
       break;
     case (GWA >= 1.376) && (GWA <= 1.625):
-      GWA = 1.50;
+      GWA = "1.50";
       break;
     case (GWA >= 1.626) && (GWA <= 1.875):
-      GWA = 1.75;
+      GWA = "1.75";
       break;
     case (GWA >= 1.876) && (GWA <= 2.125):
-      GWA = 2.00;
+      GWA = "2.00";
       break;
     case (GWA >= 2.126) && (GWA <= 2.375):
-      GWA = 2.25;
+      GWA = "2.25";
       break;
     case (GWA >= 2.376) && (GWA <= 2.625):
-      GWA = 2.50;
+      GWA = "2.50";
       break;
     case (GWA >= 2.626) && (GWA <= 2.875):
-      GWA = 2.75;
+      GWA = "2.75";
       break;
     case (GWA >= 2.876) && (GWA <= 3.125):
-      GWA = 3.00;
+      GWA = "3.00";
       break;
     case (GWA >= 3.126) && (GWA <= 3.375):
-      GWA = 4.00;
+      GWA = "4.00";
       break;
     case (GWA < 3.126 ):
-      GWA = 5.00;
+      GWA = "5.00";
       break;
     default:
       document.write("There was an error in calculating your grade. Please make sure the entered values are correct, and try again.");
    }
+  
   document.write("Your GWA is " + GWA);
   console.log ("\n GWA:" + GWA);
 } 
-
-
-
 
