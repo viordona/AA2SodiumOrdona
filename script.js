@@ -322,7 +322,7 @@ function getAverageGrades(f1,f2,f3) {
     default:
       document.write("There was an error in calculating your grade. Please make sure the entered values are correct, and try again.");
    }
-  document.write("Your Gwa: " + GWA);
+  document.write("Your GWA is " + GWA);
   console.log ("\n GWA:" + GWA);
 } 
 
