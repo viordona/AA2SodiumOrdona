@@ -279,10 +279,10 @@ function getFinalGrades (t1, t2, t3) {
   console.log("Subject 2 Final Grade: " + finalGrade2);
   console.log("Subject 2 Final Grade: " + finalGrade3);
   
-  let FinalGrade1 = parseInt(finalGrade1);
-  let FinalGrade2 = parseInt(finalGrade2);
-  let FinalGrade3 = parseInt(finalGrade3);
-  getAverageGrades(FinalGrade1,FinalGrade2,FinalGrade3);
+  let convertedFinalGrade1 = parseInt(finalGrade1);
+  let convertedFinalGrade2 = parseInt(finalGrade2);
+  let convertedFinalGrade3 = parseInt(finalGrade3);
+  getAverageGrades(convertedFinalGrade1, convertedFinalGrade2, convertedFinalGrade3);
 }
 
 function getAverageGrades(f1,f2,f3) {
@@ -327,6 +327,6 @@ function getAverageGrades(f1,f2,f3) {
    }
   
   document.write("Your GWA is " + GWA + ".");
-  console.log ("\nGWA:" + GWA);
+  console.log ("\nGWA: " + GWA);
 } 
 
